@@ -11,6 +11,7 @@ export const Tab = styled.div`
 
   font-weight: bold;
   font-size: 15px;
+  text-align: center;
 
   outline: 0;
   cursor: pointer;

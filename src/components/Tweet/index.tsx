@@ -8,6 +8,7 @@ import {
   Avatar,
   Content,
   Header,
+  Dot,
   Description,
   ImageContent,
   Icons,
