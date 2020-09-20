@@ -2,6 +2,7 @@ import React from 'react';
 
 import List from '../List';
 import FollowSuggestion from '../FollowSuggestion';
+import News from '../News';
 
 import {
   Container,
@@ -33,6 +34,11 @@ const SideBar: React.FC = () => {
               nickname="@BishopBarron"
             />,
           ]}
+        />
+
+        <List
+          title="Talvez você curta"
+          elements={[<News />, <News />, <News />]}
         />
       </Body>
     </Container>
